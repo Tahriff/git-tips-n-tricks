@@ -1,0 +1,26 @@
+{
+  "name": "git-tips-n-tricks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tahriff/git-tips-n-tricks.git"
+  },
+  "author": "Alexandre Derville",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tahriff/git-tips-n-tricks/issues"
+  },
+  "homepage": "https://github.com/Tahriff/git-tips-n-tricks#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
